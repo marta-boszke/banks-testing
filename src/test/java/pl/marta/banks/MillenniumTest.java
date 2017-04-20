@@ -46,6 +46,7 @@ public class MillenniumTest extends Locomotive {
         click(By.xpath("//*[@id=\"_currentaccountapplicationportlet_WAR_currentaccountapplicationportlet_caaForm\"]/fieldset[4]/div[2]/div[1]/div[2]/div/label"));
         click("#next");
 
+        // 5 sekund przerwy aby przyjrzec sie wynikowi testu
         Thread.sleep(5000);
     }
 
